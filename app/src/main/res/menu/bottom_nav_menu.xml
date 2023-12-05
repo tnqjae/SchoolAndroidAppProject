@@ -8,18 +8,22 @@
 
     <item
         android:id="@+id/navigation_calcul"
+        android:icon="@drawable/ic_calculator_32dp"
         android:title="@string/title_calcul" />
 
     <item
         android:id="@+id/navigation_booklist"
+        android:icon="@drawable/ic_booklist_32dp"
         android:title="@string/title_book" />
 
     <item
         android:id="@+id/navigation_image"
+        android:icon="@drawable/ic_image_24dp"
         android:title="@string/title_image" />
 
     <item
         android:id="@+id/navigation_draw"
+        android:icon="@drawable/ic_draw_451dp"
         android:title="@string/title_draw" />
 
 </menu>
