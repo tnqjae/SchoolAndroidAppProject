@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">bottomNaviBar</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_calcul">Calculator</string>
+    <string name="title_book">Book List</string>
+    <string name="title_image">Image</string>
+    <string name="title_draw">Draw</string>
+</resources>

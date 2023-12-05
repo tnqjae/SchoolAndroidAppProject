@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile_16dp"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_calcul"
+        android:title="@string/title_calcul" />
+
+    <item
+        android:id="@+id/navigation_booklist"
+        android:title="@string/title_book" />
+
+    <item
+        android:id="@+id/navigation_image"
+        android:title="@string/title_image" />
+
+    <item
+        android:id="@+id/navigation_draw"
+        android:title="@string/title_draw" />
+
+</menu>

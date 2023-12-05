@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profile">
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.bottomnavibar.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_calcul"
+        android:name="com.example.bottomnavibar.ui.calculator.CalculatorFragment"
+        android:label="@string/title_calcul"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/navigation_booklist"
+        android:name="com.example.bottomnavibar.ui.booklist.BooklistFragment"
+        android:label="@string/title_book"
+        tools:layout="@layout/fragment_booklist" />
+
+    <fragment
+        android:id="@+id/navigation_image"
+        android:name="com.example.bottomnavibar.ui.Images.ImageFragment"
+        android:label="@string/title_image"
+        tools:layout="@layout/fragment_image" />
+
+    <fragment
+        android:id="@+id/navigation_draw"
+        android:name="com.example.bottomnavibar.ui.draw.DrawFragment"
+        android:label="@string/title_draw"
+        tools:layout="@layout/fragment_draw"/>
+</navigation>
