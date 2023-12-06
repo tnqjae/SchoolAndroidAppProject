@@ -24,7 +24,7 @@ public class BooklistFragment extends Fragment {
         binding = FragmentBooklistBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textBooklist;
+        final TextView textView = binding.booklist;
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }

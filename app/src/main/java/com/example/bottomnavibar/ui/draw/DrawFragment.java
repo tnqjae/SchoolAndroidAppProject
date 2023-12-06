@@ -24,7 +24,7 @@ public class DrawFragment extends Fragment {
         binding = FragmentDrawBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDraw;
+        final TextView textView = binding.drawFrag;
         dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
