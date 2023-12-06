@@ -1,9 +1,7 @@
 package com.example.bottomnavibar.ui.profile;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -26,17 +24,16 @@ public class ProfileFragment extends Fragment {
         binding = FragmentProfileBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textProfile;
-        profileViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        // 정적으로 프로필 내용 추가
+        TextView nameTextView = binding.nameTextView;
+        TextView emailTextView = binding.emailTextView;
+
+        nameTextView.setText("예시 사용자");
+        emailTextView.setText("example@email.com");
+
         return root;
     }
 
-    public void onProfileClick(MenuItem item) {
-        // 이곳에 클릭 이벤트 처리 코드를 추가합니다.
-        // 예를 들어, 프로필 화면으로 이동하는 코드를 작성할 수 있습니다.
-        Intent intent = new Intent(getActivity(), ProfileFragment.class);
-        startActivity(intent);
-    }
     @Override
     public void onDestroyView() {
         super.onDestroyView();
